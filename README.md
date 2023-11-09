@@ -1,2 +1,2 @@
-# homebrew-dmlane
+# homebrew-tools
 My Homebrew tap
