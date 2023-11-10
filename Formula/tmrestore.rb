@@ -1,6 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
+require "formula"
 class Tmrestore < Formula
   desc "Restore time-machine backup from command line"
   homepage "https://github.com/dmlane"
