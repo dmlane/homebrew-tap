@@ -2,8 +2,8 @@ class Crudini < Formula
 	include Language::Python::Virtualenv
 	desc "crudini is a great tool for accessing ini files"
 	homepage "https://github.com/pixelb/crudini"
-	url "https://github.com/pixelb/crudini/archive/refs/tags/0.9.5.tar.gz"
-	sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+	url "https://github.com/pixelb/crudini/releases/download/0.9.5/crudini-0.9.5.tar.gz"
+	sha256 "67e4bda34fd74972f985fe7ec092b33e125d6df1fcdc8d6f493ac906ac3c34a9"
 	depends_on "python@3.12"
 	license "GPLv2"
 	def install
