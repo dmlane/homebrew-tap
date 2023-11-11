@@ -8,7 +8,7 @@ class Crudini < Formula
 	#sha256 "b0492cb9ce126ce3c05ae7d8424c0fca5b26a788f593afe000150ba0c4b23cdb"
 	sha256 "59ae650f45af82a64afc33eb876909ee0c4888dc4e8711ef59731c1edfda5e24"
 	#sha256 "67e4bda34fd74972f985fe7ec092b33e125d6df1fcdc8d6f493ac906ac3c34a9"
-	depends_on "python@3.11"
+	depends_on "python@3.12"
 	license "GPLv2"
 #	version "0.9.5"
 	resource "iniparse" do
