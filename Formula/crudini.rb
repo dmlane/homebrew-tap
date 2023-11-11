@@ -11,6 +11,10 @@ class Crudini < Formula
     	url "https://files.pythonhosted.org/packages/4c/9a/02beaf11fc9ea7829d3a9041536934cd03990e09c359724f99ee6bd2b41b/iniparse-0.5.tar.gz"
     	sha256 "932e5239d526e7acb504017bb707be67019ac428a6932368e6851691093aa842"
   	end
+	resource "setuptools-scm" do
+		url "https://files.pythonhosted.org/packages/eb/b1/0248705f10f6de5eefe7ff93e399f7192257b23df4d431d2f5680bb2778f/setuptools-scm-8.0.4.tar.gz"
+		sha256 "b5f43ff6800669595193fd09891564ee9d1d7dcb196cab4b2506d53a2e1c95c7"
+	end
 	def install
 		virtualenv_install_with_resources
 	end
