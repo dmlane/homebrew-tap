@@ -6,7 +6,7 @@ class Crudini < Formula
 	url "https://github.com/pixelb/crudini/releases/download/0.9.5/crudini-0.9.5.tar.gz"
 	#sha256 "b0492cb9ce126ce3c05ae7d8424c0fca5b26a788f593afe000150ba0c4b23cdb"
 	sha256 "67e4bda34fd74972f985fe7ec092b33e125d6df1fcdc8d6f493ac906ac3c34a9"
-	depends_on "python@3.5"
+	depends_on "python@3.7"
 	license "GPLv2"
 	version "0.9.5"
 	resource "iniparse" do
