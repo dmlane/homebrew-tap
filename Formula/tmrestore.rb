@@ -6,7 +6,7 @@ class Tmrestore < Formula
   desc "Restore time-machine backup from command line"
   homepage "https://github.com/dmlane"
   url "https://github.com/dmlane/tmrestore/archive/refs/tags/V1.0.tar.gz"
-  sha256 "c8377773702b3928b428b5942f4e65428d1a00de95d895efe61bb8eef6c88408"
+  sha256 "c1a6c659b3cd556e591f5f9bf4f18b032b7ca86fe7a2b17ae019ea8623883ffe"
   license "MIT"
 
   depends_on "bash" 
