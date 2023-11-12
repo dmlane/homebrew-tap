@@ -12,8 +12,8 @@ class Tmrestore < Formula
   depends_on "bash" 
 
   def install
-  	inreplace "tmrestore.sh",/HB_ETC/,"#{etc}"
-    bin.install "tmrestore.sh"
+  	inreplace "tmrestore",/HB_ETC/,"#{etc}"
+    bin.install "tmrestore"
   end
 
   test do
