@@ -12,7 +12,7 @@ class Tmrestore < Formula
   depends_on "bash" 
 
   def install
-  	inreplace "#{bin}/tmrestore","HB_ETC","#{etc}"
+  	inreplace "tmrestore","HB_ETC","#{etc}"
     bin.install "tmrestore"
   end
 
