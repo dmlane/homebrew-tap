@@ -1,4 +1,4 @@
-class Crudini < Formula
+class Pdfmerge < Formula
   include Language::Python::Virtualenv
 
   desc "Script to merge pdfs into a new pdf"
