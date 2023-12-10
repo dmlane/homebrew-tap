@@ -9,9 +9,9 @@ class Pdfmerge < Formula
 
   depends_on "python@3.11"
 
-  resource "iniparse" do
-    url "https://files.pythonhosted.org/packages/4c/9a/02beaf11fc9ea7829d3a9041536934cd03990e09c359724f99ee6bd2b41b/iniparse-0.5.tar.gz"
-    sha256 "932e5239d526e7acb504017bb707be67019ac428a6932368e6851691093aa842"
+  resource "PyPDF2" do
+    url "https://files.pythonhosted.org/packages/9f/bb/18dc3062d37db6c491392007dfd1a7f524bb95886eb956569ac38a23a784/PyPDF2-3.0.1.tar.gz"
+    sha256 "a74408f69ba6271f71b9352ef4ed03dc53a31aa404d29b5d31f53bfecfee1440"
   end
 
   def install
