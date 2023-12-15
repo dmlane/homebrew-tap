@@ -3,8 +3,8 @@ class Pdfmerge < Formula
 
   desc "Script to merge pdfs into a new pdf"
   homepage "https://github.com/dmlane/pdfmerge"
-  url "https://github.com/dmlane/pdfmerge/archive/refs/tags/2023.12.1069-rc0.tar.gz"
-  sha256 "1dcb033d17c70a572763302107dea5d736cf36fdf5eb607b02d9aa439436b4e8"
+  url "https://github.com/dmlane/pdfmerge/archive/refs/tags/2023.12.1070-rc0.tar.gz"
+  sha256 "162a1b30349f8420c575b5f6290aca29d82f320eebaef55042dd7bb5a9f11ce4"
   license "MIT"
 
   depends_on "python@3.11"
