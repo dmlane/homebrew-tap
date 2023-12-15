@@ -3,15 +3,15 @@ class Pdfmerge < Formula
 
   desc "Script to merge pdfs into a new pdf"
   homepage "https://github.com/dmlane/pdfmerge"
-  url "https://github.com/dmlane/pdfmerge/archive/refs/tags/2023.12.1066-rc0.tar.gz"
-  sha256 "bb9fc214b0163c1e8dd8490cdbe00388e791abb3dfe87cc6f61f396edc007df8"
+  url "https://github.com/dmlane/pdfmerge/archive/refs/tags/2023.12.1067-rc0.tar.gz"
+  sha256 "f30a92fddb83f1ac62ecfff833f23e4e27fd90f2fa78cc2de3ef0705fc49d215"
   license "MIT"
 
   depends_on "python@3.11"
 
-  resource "PyPDF2" do
-    url "https://files.pythonhosted.org/packages/9f/bb/18dc3062d37db6c491392007dfd1a7f524bb95886eb956569ac38a23a784/PyPDF2-3.0.1.tar.gz"
-    sha256 "a74408f69ba6271f71b9352ef4ed03dc53a31aa404d29b5d31f53bfecfee1440"
+  resource "pypdf" do
+    url "https://files.pythonhosted.org/packages/89/d4/57ca6f20407a86e19f45b3e19441cf39aaabb4e7cb307f9a94b02d7dbedf/pypdf-3.17.2.tar.gz"
+    sha256 "d6f077060912f8292d7db3da04f7bf2428ac974781e11eef219193a22120f649"
   end
 
   def install
