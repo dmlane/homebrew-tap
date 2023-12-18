@@ -3,8 +3,8 @@ class Dmltools < Formula
 
   desc "Collection of useful homegrown command-line tools"
   homepage "https://github.com/dmlane/dmltools"
-  url "https://github.com/dmlane/dmltools/archive/refs/tags/2023.12.1009-rc0.tar.gz"
-  sha256 "4d9f5b46f3e1ccdd9b723c21ec8c2a9ad4877a3bb88b6bdcbd9109dd17ee2efa"
+  url "https://github.com/dmlane/dmltools/archive/refs/tags/2023.12.1010-rc0.tar.gz"
+  sha256 "42689945b9bc025b7fa7d4c3c8549fd1843d5c2e7325dc540a440648b5b42f2a"
   license "MIT"
 
   depends_on "python@3.11"
@@ -25,6 +25,10 @@ class Dmltools < Formula
   resource "mdfind-wrapper" do
     url "https://files.pythonhosted.org/packages/0e/74/148968c2665c0f2db1fbd470fbb454b1f808ea5d4cb8d75bc99f451d0ece/mdfind-wrapper-0.1.5.tar.gz"
     sha256 "c0dbd5bc99c6d1fb4678bfa1841a3380ccac61e9b43a26a8d658aa9cafe27441"
+  end
+  resource "xattr" do
+    url "https://files.pythonhosted.org/packages/91/ac/5898d1811abc88c3710317243168feff61ce12be220b9c92ee045ecd66c4/xattr-0.9.9.tar.gz"
+    sha256 "09cb7e1efb3aa1b4991d6be4eb25b73dc518b4fe894f0915f5b0dcede972f346"
   end
   test do
     system "#{bin}/dmltools", "--version"
