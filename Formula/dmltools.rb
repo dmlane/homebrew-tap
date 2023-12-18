@@ -3,11 +3,12 @@ class Dmltools < Formula
 
   desc "Collection of useful homegrown command-line tools"
   homepage "https://github.com/dmlane/dmltools"
-  url "https://github.com/dmlane/dmltools/archive/refs/tags/2023.12.1006-rc0.tar.gz"
-  sha256 "a2114f51495a15dd0064c509ce6fef4da6e1727a94637e2b6ce11579b1f48c21"
+  url "https://github.com/dmlane/dmltools/archive/refs/tags/2023.12.1007-rc0.tar.gz"
+  sha256 "0e0c781aea1271de34261f7f4898c5ace6112230370cdbfb32d6cd70afea39e6"
   license "MIT"
 
   depends_on "python@3.11"
+  depends_on "cmake"
 
   def install
     virtualenv_install_with_resources
