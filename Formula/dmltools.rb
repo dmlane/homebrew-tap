@@ -3,7 +3,7 @@ class dmltools < Formula
 
   desc "Collection of useful homegrown command-line tools"
   homepage "https://github.com/dmlane/dmltools"
-  url "https://github.com/dmlane/dmltools/archive/refs/tags/2023.12.1002.tar.gz"
+  url "https://github.com/dmlane/dmltools/archive/refs/tags/2023.12.1003-rc0.tar.gz"
   sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   license "MIT"
 
