@@ -11,6 +11,7 @@ class Tmrestore < Formula
 	inreplace "tmrestore", /^\..*.\/common.env/, ". #{prefix}/common.env"
     bin.install "tmrestore"
 	inreplace "common.env", "__VERSION__", version.to_s
+	inreplace "common.env", "/opt/homebrew", HOMEBREW_PREFIX.to_s
 	prefix.install "common.env"
   end
 
