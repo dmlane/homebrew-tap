@@ -3,8 +3,8 @@ class Dmltools < Formula
 
   desc "Collection of useful homegrown command-line tools"
   homepage "https://github.com/dmlane/dmltools"
-  url "https://github.com/dmlane/dmltools/archive/refs/tags/2023.12.1011-rc0.tar.gz"
-  sha256 "935417708a66abdbecd741b935e5cec3f79307c52cedd1987541b15af7344a26"
+  url "https://github.com/dmlane/dmltools/archive/refs/tags/2023.12.1012-rc0.tar.gz"
+  sha256 "680315a51afa5a661451388169d1723e8259035dfc4c0c8989735797404ff7de"
   license "MIT"
 
   depends_on "python@3.11"
@@ -13,7 +13,7 @@ class Dmltools < Formula
   def install
     virtualenv_install_with_resources
   end
-
+  #---START-RESOURCES---
   resource "cffi" do
     url "https://files.pythonhosted.org/packages/68/ce/95b0bae7968c65473e1298efb042e10cafc7bafc14d9e4f154008241c91d/cffi-1.16.0.tar.gz"
     sha256 "bcb3ef43e58665bbda2fb198698fcae6776483e0c4a631aa5647806c25e02cc0"
@@ -68,6 +68,7 @@ class Dmltools < Formula
     url "https://files.pythonhosted.org/packages/91/ac/5898d1811abc88c3710317243168feff61ce12be220b9c92ee045ecd66c4/xattr-0.9.9.tar.gz"
     sha256 "09cb7e1efb3aa1b4991d6be4eb25b73dc518b4fe894f0915f5b0dcede972f346"
   end
+  #---END-RESOURCES---
   test do
     system "#{bin}/dmltools", "--version"
   end
