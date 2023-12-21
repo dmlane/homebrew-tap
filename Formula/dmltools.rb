@@ -3,8 +3,8 @@ class Dmltools < Formula
 
   desc "Collection of useful homegrown command-line tools"
   homepage "https://github.com/dmlane/dmltools"
-  url "https://github.com/dmlane/dmltools/archive/refs/tags/2023.12.1013-rc0.tar.gz"
-  sha256 "7e774e9fdc758e30cb6c0ab3910e8e529fac1551e0e04ba457273dba77ef5cd4"
+  url "https://github.com/dmlane/dmltools/archive/refs/tags/2023.12.1014-rc0.tar.gz"
+  sha256 "8eadfb463ec21266b4c1a9e30ca5d9fc123cce26517f4bab9b83c19fcba38020"
   license "MIT"
 
   depends_on "python@3.11"
