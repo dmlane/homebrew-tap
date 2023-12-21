@@ -3,8 +3,8 @@ class DmlPdfmerge < Formula
 
   desc "A short description"
   homepage "https://github.com/dmlane/dml-pdfmerge"
-  url "https://github.com/dmlane/dml-pdfmerge/archive/refs/tags/2023.12.1005-rc0.tar.gz"
-  sha256 "9613d9dc929a911816c8dbdfce0b33c6ad3a6e9f5298d458d6af0e263a8884b3"
+  url "https://github.com/dmlane/dml-pdfmerge/archive/refs/tags/2023.12.1006-rc0.tar.gz"
+  sha256 "7c635b57a6eeb3c3ddac52cb78d109322aa990ee26dfb6e705524a9d66e107d7"
   license "MIT"
 
   depends_on "python@3.11"
