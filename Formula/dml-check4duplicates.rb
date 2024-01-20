@@ -3,12 +3,12 @@ class DmlCheck4duplicates < Formula
 
   desc "Search for identical file in any of the supplied directories"
   homepage "https://github.com/dmlane/dml-check4duplicates"
-  url "https://github.com/dmlane/dml-check4duplicates/archive/refs/tags/2024.1.1003-rc0.tar.gz"
-  sha256 "08915b62b0fe3715f084d50e152b459b5b5996897bc5e99c458e9e695480f2f2"
+  url "https://github.com/dmlane/dml-check4duplicates/archive/refs/tags/2024.1.1004-rc0.tar.gz"
+  sha256 "f7c49d287161a8f793feffe0f8cc9599c4c278f87535b334d3fc3f78a50023c7"
   license "MIT"
 
   depends_on "python@3.11"
-  depends on "cmake"
+  depends_on "cmake"
 
   def install
     virtualenv_install_with_resources
