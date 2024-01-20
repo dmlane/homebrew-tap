@@ -3,8 +3,8 @@ class DmlCheck4duplicates < Formula
 
   desc "Search for identical file in any of the supplied directories"
   homepage "https://github.com/dmlane/dml-check4duplicates"
-  url "https://github.com/dmlane/dml-check4duplicates/archive/refs/tags/2023.12.1004-rc0.tar.gz"
-  sha256 "93a4243b1b76e77f082099c65e3b7b274a59b78ce977f743dea6c46146e864f5"
+  url "https://github.com/dmlane/dml-check4duplicates/archive/refs/tags/2024.1.1001-rc0.tar.gz"
+  sha256 "e1cbe1ba4d2e77411dc5eea740173c223864ad635559a2f1af30220e34d6c30b"
   license "MIT"
 
   depends_on "python@3.11"
