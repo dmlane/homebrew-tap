@@ -3,8 +3,8 @@ class DmlTools < Formula
 
   desc "Set of command-line tools which need python"
   homepage "https://github.com/dmlane/dml-tools"
-  url "https://github.com/dmlane/dml-tools/archive/refs/tags/2024.1.1020.tar.gz"
-  sha256 "ec0dbe16c78997cbe5fa16e25dcc3d16efe3b87159fe80f707d301bf05b15a6f"
+  url "https://github.com/dmlane/dml-tools/archive/refs/tags/2024.1.1021.tar.gz"
+  sha256 "1908e7da9e03fc970241f01877a62234c69c8d91ea11b638f5bcd1656c27130c"
   license "MIT"
 
   depends_on "python@3.11"
@@ -26,8 +26,8 @@ class DmlTools < Formula
     sha256 "72b3bde64e5d778694b0cf68178aed03d15e15477116add3fb773e581f9518ff"
   end
   resource "eyed3" do
-    url ""
-    sha256 ""
+    url "https://files.pythonhosted.org/packages/75/a5/263664ef1f1be58f72c8bc66ef128781af0a8110aeb591428d5c3a67b356/eyeD3-0.9.7.tar.gz"
+    sha256 "93b18e9393376a45114f9409d7cca119fb6f4f9a37d4b697b500af48b4c5cf0f"
   end
   resource "filetype" do
     url "https://files.pythonhosted.org/packages/bb/29/745f7d30d47fe0f251d3ad3dc2978a23141917661998763bebb6da007eb1/filetype-1.2.0.tar.gz"
