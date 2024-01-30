@@ -3,8 +3,8 @@ class DmlTools < Formula
 
   desc "Set of command-line tools which need python"
   homepage "https://github.com/dmlane/dml-tools"
-  url "https://github.com/dmlane/dml-tools/archive/refs/tags/2024.1.1015-rc0.tar.gz"
-  sha256 "3679ddb2e7c8c709e302ec7cb28bd7ae455e45ef0903aa64298b4c5640fb48e1"
+  url "https://github.com/dmlane/dml-tools/archive/refs/tags/2024.1.1016.tar.gz"
+  sha256 "ae380551d1f88c0e0f699303d86384daa1dc20c13e2a5efbdd36704a02a2ddd3"
   license "MIT"
 
   depends_on "python@3.11"
