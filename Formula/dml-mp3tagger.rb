@@ -3,8 +3,8 @@ class DmlMp3tagger < Formula
 
   desc "Change mp3 tags to what I want"
   homepage "https://github.com/dmlane/dml-mp3tagger"
-  url "https://github.com/dmlane/dml-mp3tagger/archive/refs/tags/2024.2.1005.tar.gz"
-  sha256 "4dedf0250e94311107353c16c1cac855e85346d28c97560179afeaeac8e39d57"
+  url "https://github.com/dmlane/dml-mp3tagger/archive/refs/tags/2024.2.1006.tar.gz"
+  sha256 "755f8af9af218c0083f05e7735b6d302e37cc81b637a8df74bf1466f657143ac"
   license "MIT"
 
   depends_on "python@3.11"
