@@ -3,8 +3,8 @@ class DmlMp3tagger < Formula
 
   desc "Change mp3 tags to what I want"
   homepage "https://github.com/dmlane/dml-mp3tagger"
-  url "https://github.com/dmlane/dml-mp3tagger/archive/refs/tags/2024.2.1015.tar.gz"
-  sha256 "44bac3cf3539d9b749408683c5b23fe6f45a5bb3aeca7374a5a8b4eed27e1e3b"
+  url "https://github.com/dmlane/dml-mp3tagger/archive/refs/tags/2024.8.1016-rc0.tar.gz"
+  sha256 "43d8bee415ba4d45e4010e85b4a457c1658e17326e62a465139e1d7eacd2c5f7"
   license "MIT"
 
   depends_on "python@3.11"
@@ -22,8 +22,8 @@ class DmlMp3tagger < Formula
     sha256 "719fadef0a978c31b4cf3c956261b3c58b6948b32023078a2117b1de09f0fc99"
   end
   resource "python-dateutil" do
-    url "https://files.pythonhosted.org/packages/4c/c4/13b4776ea2d76c115c1d1b84579f3764ee6d57204f6be27119f13a61d0a9/python-dateutil-2.8.2.tar.gz"
-    sha256 "0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"
+    url "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz"
+    sha256 "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3"
   end
   resource "six" do
     url "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz"
