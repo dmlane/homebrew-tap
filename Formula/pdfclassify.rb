@@ -2,8 +2,8 @@ class Pdfclassify < Formula
   include Language::Python::Virtualenv
   desc "Awesome CLI tool"
   homepage "https://github.com/dmlane/pdfclassify"
-  url "https://github.com/dmlane/pdfclassify/releases/download/v1.0.21/pdfclassify-1.0.21.pyz"
-  sha256 "799b20211d5dc62be87bb179ad67b680a90d58d6c897dec13cf2defa76e4f480"
+  url "https://github.com/dmlane/pdfclassify/releases/download/v1.0.20/pdfclassify-1.0.20.pyz"
+  sha256 "c11b76aea860db3e177b040a434e70e9bb5fed2eb37784cb47e0f7257582556a"
   license "MIT"
 
   depends_on "python@3.12"
