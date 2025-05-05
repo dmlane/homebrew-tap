@@ -14,6 +14,7 @@ class Pdfclassify < Formula
 		#!/bin/bash
 		exec #{Formula["python@3.12"].opt_bin}/python3 #{libexec}/pdfclassify.pyz "$@"
 	EOS
+	(bin/"pdfclassify").chmod 0755
   end
   test do
 	  system "#{bin}/pdfclassify", "--version"
