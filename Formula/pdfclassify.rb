@@ -1,8 +1,8 @@
 class Pdfclassify < Formula
   desc "Awesome CLI tool"
   homepage "https://github.com/dmlane/pdfclassify"
-  url "https://github.com/dmlane/pdfclassify/releases/download/v1.0.25/pdfclassify-1.0.25.pyz"
-  sha256 "4c6c5af1cb8ac272f5e487eb1304c9e57233ae241377496aab9bacfed76ed564"
+  url "https://github.com/dmlane/pdfclassify/releases/download/v1.0.26/pdfclassify-1.0.26.pyz"
+  sha256 "38511ca94fcc1f12fef9c30eab125dd0f3f8526ab01c4295929f7e14fe8e1ba5"
   license "MIT"
 
   depends_on "python@3.12"
