@@ -8,8 +8,7 @@ class Pdfclassify < Formula
   depends_on "python@3.12"
 
   def install
-    #bin.install "pdfclassify-#{version}.pyz" => "pdfclassify"
-	virtualenv_install_with_resources
+	virtualenv_install_with_resources using: Formula["python@3.12"].opt_bin/"python3"
   end
   test do
 	  system "#{bin}/pdfclassify", "--version"
