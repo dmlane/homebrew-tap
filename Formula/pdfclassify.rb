@@ -1,4 +1,5 @@
 class Pdfclassify < Formula
+  include Language::Python::Virtualenv
   desc "Awesome CLI tool"
   homepage "https://github.com/dmlane/pdfclassify"
   url "https://github.com/dmlane/pdfclassify/releases/download/v1.0.21/pdfclassify-1.0.21.pyz"
@@ -8,7 +9,8 @@ class Pdfclassify < Formula
   depends_on "python@3.12"
 
   def install
-	virtualenv_install_with_resources using: Formula["python@3.12"].opt_bin/"python3"
+	#virtualenv_install_with_resources using: Formula["python@3.12"].opt_bin/"python3"
+    virtualenv_install_with_resources
   end
   test do
 	  system "#{bin}/pdfclassify", "--version"
