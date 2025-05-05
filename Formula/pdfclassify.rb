@@ -12,7 +12,7 @@ class Pdfclassify < Formula
 	libexec.install pyz
 	(bin/"pdfclassify").write <<~EOS
 		#!/bin/bash
-		exec #{Formula["python@3.12"].opt_bin}/python3 #{libexec}/#{pyz} "$@"
+		exec #{Formula["python@3.12"].opt_bin}/python3.12 #{libexec}/#{pyz} "$@"
 	EOS
 	(bin/"pdfclassify").chmod 0755
   end
