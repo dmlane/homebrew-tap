@@ -1,4 +1,4 @@
-class DmlPdfclassify < Formula
+class DmlanePdfclassify < Formula
   PYTHON_VERSION = "3.12"
   desc "A multilingual PDF semantic classifier"
   homepage "https://github.com/dmlane/pdfclassify"
