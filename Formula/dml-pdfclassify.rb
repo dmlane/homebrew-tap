@@ -1,6 +1,6 @@
-class Pdfclassify < Formula
+class DmlPdfclassify < Formula
   PYTHON_VERSION = "3.12"
-  desc "Awesome CLI tool"
+  desc "A multilingual PDF semantic classifier"
   homepage "https://github.com/dmlane/pdfclassify"
   url "https://github.com/dmlane/pdfclassify/releases/download/v1.0.28/pdfclassify-1.0.28.pyz"
   sha256 "0cc0daf087539cf49c3f32763f4357d338c4744056a651bc839e31a98f918530"
