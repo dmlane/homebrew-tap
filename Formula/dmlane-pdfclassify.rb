@@ -2,8 +2,8 @@ class DmlanePdfclassify < Formula
   PYTHON_VERSION = "3.12"
   desc "A multilingual PDF semantic classifier"
   homepage "https://github.com/dmlane/pdfclassify"
-  url "https://github.com/dmlane/pdfclassify/releases/download/2025.05.22/pdfclassify-2025.05.22.pyz"
-  sha256 "980f9783a4f29ae2583b468dae26c257944374f73b0c12b10e326598f5a86326"
+  url "https://github.com/dmlane/pdfclassify/releases/download/2025.05.23/pdfclassify-2025.05.23.pyz"
+  sha256 "957bf760d355272345cb852968fe279f66a3c479904354262cd80a064d054df2"
   license "MIT"
 
   depends_on "python@#{PYTHON_VERSION}"
